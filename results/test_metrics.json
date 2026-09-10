@@ -1,0 +1,33 @@
+{
+  "dataset": "data/processed/test.csv",
+  "intent_classification": {
+    "accuracy": 0.8694,
+    "precision_macro": 0.8679,
+    "recall_macro": 0.8722,
+    "macro_f1": 0.8693,
+    "eval_samples": 1738
+  },
+  "escalation_decision": {
+    "accuracy": 0.8182,
+    "precision": 0.4637,
+    "recall": 0.9781,
+    "f1_score": 0.6291,
+    "eval_samples": 1738
+  },
+  "reply_quality_judge": {
+    "mean_correctness": 5.0,
+    "mean_helpfulness": 4.72,
+    "mean_brand_tone": 4.76,
+    "mean_groundedness": 5.0,
+    "mean_composite_score": 4.87,
+    "total_evaluated": 1738,
+    "human_agreement": {
+      "sample_size": 30,
+      "pearson_correlation": 0.014,
+      "mean_absolute_error": 0.3,
+      "agreement_within_1_point_pct": 100.0,
+      "human_mean_score": 4.67,
+      "judge_mean_score": 4.88
+    }
+  }
+}
