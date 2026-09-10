@@ -122,8 +122,7 @@ hiver-apple-agent/
 ### 2. Environment Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/hiver-apple-agent.git
-cd hiver-apple-agent
+https://github.com/pavan-charan/hiver-apple-support-agent
 
 # Create and activate virtual environment
 python -m venv venv
