@@ -1,4 +1,4 @@
-# Apple Support AI Agent 
+# Apple Support AI Agent 
 
 A production-grade, reproducible AI Support Agent for **Apple Support** built with sentence embeddings, FAISS vector retrieval (RAG), Logistic Regression intent classification, hybrid confidence/keyword escalation routing, and LLM-as-a-judge evaluation.
 
