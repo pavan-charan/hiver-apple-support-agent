@@ -123,7 +123,7 @@ hiver-apple-agent/
 ```bash
 # Clone the repository
 git clone https://github.com/pavan-charan/hiver-apple-support-agent
-
+cd hiver-apple-support-agent
 # Create and activate virtual environment
 python -m venv venv
 # On Linux/macOS:
